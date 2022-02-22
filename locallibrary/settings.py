@@ -145,7 +145,3 @@ STATIC_ROOT = BASE_DIR / 'staticfiles'
 
 # The URL to use when referring to static files (where they will be served from)
 STATIC_URL = '/catalog/static/'
-
-# Configure Django App for Heroku.
-import django_heroku
-django_heroku.settings(locals())
