@@ -28,7 +28,7 @@ SECRET_KEY = os.environ.get('DJANGO_SECRET_KEY', 'django-insecure-rnph^^p5#$kak4
 #DEBUG = True
 DEBUG = os.environ.get('DJANGO_DEBUG', '') != 'False'
 
-ALLOWED_HOSTS = ['blooming-forest-78750','127.0.0.1']
+ALLOWED_HOSTS = ['blooming-forest-78750.herokuapp.com','127.0.0.1']
 
 # Application definition
 
